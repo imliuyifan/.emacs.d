@@ -1,0 +1,31 @@
+;; Object my_program/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "my_program/"
+  :tables
+  (list
+    (semanticdb-table "main.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [32 50])
+            ("list" include (:system-flag t) nil [51 66])
+            ("iostream" include (:system-flag t) nil [67 86])
+            ("/include/myadd.h" include nil nil [87 114])
+            ("/include/helper.h" include nil nil [115 143])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [154 163])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [164 177]))                  
+                :type "int")
+                nil [145 453]))          
+      :file "main.cpp"
+      :pointmax 455
+      :fsize 454
+      :lastmodtime '(21772 8587 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!yifanliu!my_program!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

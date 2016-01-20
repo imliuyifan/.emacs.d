@@ -1,0 +1,128 @@
+cd ..
+ls
+cd build/
+ls
+rm -rf *
+ls
+cmake ../
+make
+rm -rf *
+cd ..
+cd instance/
+ls
+cd ..
+ls
+cd build/
+ls
+cmake ../
+make
+ls
+cd ..
+ls
+cd instance/
+ls
+cd sdinput/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd sd
+ls
+cd sd
+ls
+cd instance/
+ls
+cd ..
+cd ..
+ls
+rm -rf sd
+cd build/
+ls
+rm -rf *
+ls
+ls
+cmake ../
+make
+cd ..
+ls
+cd instance/
+ls
+./sd
+cd ../..
+ls
+cd Research/
+ls
+cd ORPaper/
+ls
+cd 3rd_Rivision/
+ls
+ediff
+ediff: Paper01112016/mainBody.tex Paper01142016/mainBody.tex
+ediff Paper01112016/mainBody.tex Paper01142016/mainBody.tex
+ediff Paper01112016/appendix.tex Paper01142016/appendix.tex
+ediff Paper01072016/appendix.tex Paper01142016/appendix.tex
+ls
+ls
+cd Paper01142016/
+ls
+scenred
+scenred2
+cd ~/Applications/
+ls
+cd /Applications/
+ls
+cd GAMS24.5/
+ls
+open .
+cd ~/Downloads/
+ls
+chmod 755 osx_x64_64_sfx.exe
+cd ../Applications/
+ls
+mkdir GAMS
+cd GAMS/
+cp ~/Downloads/osx_x64_64_sfx.exe .
+cp /Applications/GAMS24.5/gamslice.txt .
+ls
+./osx_x64_64_sfx.exe
+ls
+ls
+cd gams23.8_osx_x64_64_sfx/
+ls
+./gamsinst
+ls
+cp ../gamslice.txt .
+ls
+gams
+pwd
+gomip
+pwd
+ls gam*
+ls gaml*
+ls
+cd gamslib_ml/
+ls
+cd ..
+ls
+cd datalib_ml/
+cd ..
+cd datalib
+ls
+cd datalib_ml/
+ls
+cd ..
+ls
+cd finlib_ml/
+ls
+cd ..
+find srkandw.gms
+find -r srkandw.gms
+find -R srkandw.gms
+find -R srkandw.gms .
+find -r srkandw.gms .
+find  srkandw.gms .
+cd ./gamslib_ml
+ls

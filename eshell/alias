@@ -1,0 +1,6 @@
+alias ll ls -lh
+alias la ls -lha
+alias lsd ls -l | grep "^d"
+alias py /opt/local/bin/python2.7
+alias gosd cd /Users/yifanliu/Developer/sd/DerivedData/sd/Build/Products/Debug
+alias gorc cd /Users/yifanliu/Downloads/sd-new_rc/DerivedData/sdlb/Build/Products/Debug

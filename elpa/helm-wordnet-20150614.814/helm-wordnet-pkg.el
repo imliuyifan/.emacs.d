@@ -1,0 +1,1 @@
+(define-package "helm-wordnet" "20150614.814" "Helm interface to local wordnet dictionary" '((emacs "24") (helm "1.7.0") (cl-lib "0.5")) :url "https://github.com/raghavgautam/helm-wordnet" :keywords '("dictionary" "wordnet" "emacs" "elisp" "helm"))

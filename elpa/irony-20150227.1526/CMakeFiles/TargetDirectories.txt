@@ -1,0 +1,1 @@
+/Users/yifanliu/.emacs.d/elpa/irony-20150227.1526/src/CMakeFiles/irony-server.dir

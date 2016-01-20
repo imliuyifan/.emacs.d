@@ -1,0 +1,148 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables
+  (list
+    (semanticdb-table "sd.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("prob.h" include nil nil [829 846])
+            ("cell.h" include nil nil [847 864])
+            ("soln.h" include nil nil [865 882])
+            ("quad.h" include nil nil [883 900])
+            ("time.h" include (:system-flag t) nil [901 918])
+            ("solver.h" include nil nil [919 938])
+            ("utility.h" include nil nil [939 959])
+            ("input.h" include nil nil [960 978])
+            ("log.h" include nil nil [979 995])
+            ("cuts.h" include nil nil [996 1013])
+            ("sdglobal.h" include nil nil [1014 1035])
+            ("supomega.h" include nil nil [1036 1057])
+            ("sd_create_output_folder" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("buffer1" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1129 1143])
+                    ("buffer2" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1144 1158])
+                    ("fname" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1159 1171]))                  
+                :type "void")
+                nil [1100 1172])
+            ("sd_mv_files" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("buffer1" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1241 1255])
+                    ("buffer2" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1256 1270])
+                    ("fname" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1271 1283]))                  
+                :type "void")
+                nil [1224 1284])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1317 1326])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1327 1340]))                  
+                :type "int")
+                nil [1308 17383])
+            ("sd_create_output_folder" function
+               (:arguments 
+                  ( ("buffer1" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17885 17899])
+                    ("buffer2" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17900 17914])
+                    ("fname" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17915 17927]))                  
+                :type "void")
+                nil [17856 18330])
+            ("sd_mv_files" function
+               (:arguments 
+                  ( ("buffer1" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [21794 21808])
+                    ("buffer2" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [21809 21823])
+                    ("fname" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [21824 21836]))                  
+                :type "void")
+                nil [21777 22042]))          
+      :file "sd.c"
+      :pointmax 22053
+      :fsize 22819
+      :lastmodtime '(21960 19719 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "prob.h"
+      :file "prob.h"
+      :fsize 7440
+      :lastmodtime '(21889 58988 0 0))
+    (semanticdb-table "cell.h"
+      :file "cell.h"
+      :fsize 7283
+      :lastmodtime '(21937 31328 0 0))
+    (semanticdb-table "soln.h"
+      :file "soln.h"
+      :fsize 11181
+      :lastmodtime '(21889 58988 0 0))
+    (semanticdb-table "quad.h"
+      :file "quad.h"
+      :fsize 1011
+      :lastmodtime '(21889 58988 0 0))
+    (semanticdb-table "solver.h"
+      :file "solver.h"
+      :fsize 3487
+      :lastmodtime '(21889 58988 0 0))
+    (semanticdb-table "utility.h"
+      :file "utility.h"
+      :fsize 1677
+      :lastmodtime '(21889 58988 0 0))
+    (semanticdb-table "input.h"
+      :file "input.h"
+      :fsize 4619
+      :lastmodtime '(21889 58988 0 0))
+    (semanticdb-table "log.h"
+      :file "log.h"
+      :fsize 429
+      :lastmodtime '(21889 58988 0 0))
+    (semanticdb-table "cuts.h"
+      :file "cuts.h"
+      :fsize 2860
+      :lastmodtime '(21889 58988 0 0))
+    (semanticdb-table "sdglobal.h"
+      :file "sdglobal.h"
+      :fsize 12649
+      :lastmodtime '(21889 58988 0 0))
+    (semanticdb-table "supomega.h"
+      :file "supomega.h"
+      :fsize 2809
+      :lastmodtime '(21889 58988 0 0)))
+  :file "!Users!yifanliu!Downloads!sd!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,26 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".000webhost.com"
+  [url-cookie "hash" "OhC99uzU3NgqlgEU" "19-Aug-2016 14:39:36.00 GMT" "/" ".000webhost.com" nil])
+ ("rss.nytimes.com"
+  [url-cookie "MF2" "1sxgwdvoeks6a" "08 Sep 17 01:58:01 [GMT]" "/" "rss.nytimes.com" nil])
+ (".google.com"
+  [url-cookie "HttpOnly" nil "08-Mar-2016 17:46:02.00 GMT" "/" ".google.com" nil]
+  [url-cookie "NID" "71=WzB4E2m-cSQt4_HHoyi5VSqF7MKhxVeS-gAraU1a34EGr5cQ7ZEsaNPIUfgoOsgalP6o61zSYlq-VA-py6qQF4wYxyNZqFtbyIDSSSX4gbL66qNxaHMDyVw5BoNp0oS_" "08-Mar-2016 17:46:02.00 GMT" "/" ".google.com" nil]
+  [url-cookie "PREF" "ID=1111111111111111:TM=1441647962:LM=1441647962:V=1:S=Nxr0-9LpPypoTgGD" "31-Dec-2015 16:02:17.00 GMT" "/" ".google.com" nil]
+  [url-cookie "SC" "RV=:ED=us" "08-Mar-2016 17:46:02.00 GMT" "/finance" ".google.com" nil])
+ (".economist.com"
+  [url-cookie "visid_incap_121505" "HxYSHw4ZQPeocba6atRPXvHh7VUAAAAAQUIPAAAAAACDzi71yFVY8TMPANTXF1cj" "Wed, 06 Sep 2017 15:41:42 GMT" "/" ".economist.com" nil])
+ ("en.wikipedia.org"
+  [url-cookie "HttpOnly" nil "Fri, 09 Oct 2015 00:00:00 GMT" "/" "en.wikipedia.org" nil]
+  [url-cookie "WMF-Last-Access" "07-Sep-2015" "Fri, 09 Oct 2015 00:00:00 GMT" "/" "en.wikipedia.org" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
